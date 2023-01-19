@@ -5,6 +5,13 @@
 - [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
 ## Resources
 ### `R`
+#### Youtube Channels
+- [ggnot2](https://www.youtube.com/@ggnot2)
+- [Posit](https://www.youtube.com/@PositPBC)
+- [R Programming 101](https://www.youtube.com/@RProgramming101)
+- [Business Science](https://www.youtube.com/@BusinessScience)
+- [DataSlice](https://www.youtube.com/@dataslice)
+#### Websites
 - [rweekly.org](https://rweekly.org/)
 - [EasyStats](https://easystats.github.io/easystats/)
 - [tidyverse.org/blog](https://www.tidyverse.org/blog/)
