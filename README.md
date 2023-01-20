@@ -40,6 +40,9 @@
 - [SQL Style Guide](https://www.sqlstyle.guide/)
 - [PostgreSQL Courses](https://www.enterprisedb.com/training/free-postgres-training)
 
+### `Tableau`
+- [Free Training Videos](https://www.tableau.com/learn/training/20224)
+
 ## R Workflows - [Link](https://r4ds.hadley.nz/workflow-scripts.html#summary)
 - Create one RStudio project for each data analysis project.
 - Save your scripts (with informative names) in the project, edit them, run them in bits or as a whole. Restart R frequently to make sure you’ve captured everything in your scripts.
