@@ -3,6 +3,7 @@
 - [30 Day Map Challenge](https://30daymapchallenge.com/)
 - [R For DS](https://www.rfordatasci.com/)
 - [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
+- [Learn via Kaggle](https://www.kaggle.com/learn)
 ## Resources
 ### `R`
 #### Youtube Channels
