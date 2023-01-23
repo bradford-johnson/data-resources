@@ -16,6 +16,7 @@
 - [Business Science](https://www.youtube.com/@BusinessScience)
 - [DataSlice](https://www.youtube.com/@dataslice)
 #### Websites
+- [Forecasting: Principles and Practice](https://otexts.com/fpp2/index.html)
 - [rweekly.org](https://rweekly.org/)
 - [EasyStats](https://easystats.github.io/easystats/)
 - [tidyverse.org/blog](https://www.tidyverse.org/blog/)
