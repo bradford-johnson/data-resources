@@ -4,11 +4,25 @@
 - [R For DS](https://www.rfordatasci.com/)
 - [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
 - [Learn via Kaggle](https://www.kaggle.com/learn)
+- [TidyTuesday Rocks](https://nsgrantham.shinyapps.io/tidytuesdayrocks/)
 
 ## Tools
 - [`regex`](https://regex-generator.olafneumann.org/?sampleText=2020-03-12T13%3A34%3A56.123Z%20INFO%20%20%5Borg.example.Class%5D%3A%20This%20is%20a%20%23simple%20%23logline%20containing%20a%20%27value%27.&flags=i)
+
+## Colors!
+- [Chroma.js](https://gka.github.io/palettes/#/9|s|948616,0b567b,ffffe0|ffffe0,ff005e,93003a|1|1)
+- [Color Thief](https://lokeshdhakar.com/projects/color-thief/)
+- [Color Space](https://mycolor.space/)
+- [Viz Palette](https://projects.susielu.com/viz-palette)
+
+## Viz
+- [Material Design](https://m2.material.io/design/communication/data-visualization.html#types)
+- [Viz Flowchart](https://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf)
+- [Data Viz Project](https://datavizproject.com/)
+- [Visualization Universe](http://visualizationuniverse.com/charts/)
 ## Resources
 ### `R`
+- [Big Book of R](https://www.bigbookofr.com/)
 #### Youtube Channels
 - [ggnot2](https://www.youtube.com/@ggnot2)
 - [Posit](https://www.youtube.com/@PositPBC)
