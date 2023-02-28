@@ -1,0 +1,147 @@
+---
+title: "sankey_demo"
+highlight-style: dracula
+format: 
+  html:
+    page-layout: full
+---
+
+```{r}
+library(tidyverse)
+library(ggsankey)
+```
+
+```{r}
+s1 <- sample(x= c("Single",
+                  "Married", 
+                  "Married with kids", 
+                  "Married Without kids"), 
+              size = 100, 
+              replace=TRUE)
+
+s2 <- sample(x= c("Male", 
+                  "Female"), 
+             size = 100, 
+             replace=TRUE)
+
+s3 <- sample(x= c("Happy", 
+                  "Not Happy"), 
+             size = 100, 
+             replace=TRUE)
+
+d <- data.frame(cbind(s1,s2,s3))
+names(d) <- c('Relationship', 
+              'Gender', 
+              'Outcome')
+
+df <- d%>%
+  make_long(Relationship, 
+            Gender, 
+            Outcome)
+
+df %>%
+  head()
+```
+
+```{r}
+pl <- ggplot(df, aes(x = x,                        
+                     next_x = next_x,                                     
+                     node = node,
+                     next_node = next_node,        
+                     fill = factor(node)))
+                     
+pl <- pl +geom_sankey(flow.alpha = 0.5,          #This Creates the transparency of your node 
+                      node.color = "black",     # This is your node color        
+                      show.legend = TRUE)        # This determines if you want your legend to show
+
+pl
+```
+
+```{r}
+pl <- ggplot(df, aes(x = x,                        
+                     next_x = next_x,                                     
+                     node = node,
+                     next_node = next_node,        
+                     fill = factor(node),
+                     label = node))             # This Creates a label for each node
+                     
+pl <- pl +geom_sankey(flow.alpha = 0.5,          #This Creates the transparency of your node 
+                      node.color = "black",     # This is your node color        
+                      show.legend = TRUE)        # This determines if you want your legend to show
+
+pl <- pl + geom_sankey_label(Size = 3, 
+                             color = "black", 
+                             fill = "white") # This specifies the Label format for each node 
+
+
+pl <- pl + theme_bw()
+pl <- pl + theme(legend.position = 'none')
+pl <- pl + theme(axis.title = element_blank(),
+                 axis.text.y = element_blank(),
+                 axis.ticks = element_blank(),
+                 panel.grid = element_blank())
+
+pl <- pl + scale_fill_viridis_d(option = "inferno")
+pl <- pl + labs(title = "Creating a Sankey Diagram")
+pl <- pl + labs(subtitle = "Using a simplified ficticious data")
+pl <- pl + labs(caption ="Opeyemi Omiwale" )
+pl <- pl + labs(fill = 'Nodes')
+pl
+```
+
+```{r}
+reagg <- df%>%
+  dplyr::group_by(node)%>%  # Here we are grouping the data by node and then we are taking the frequency of it 
+  tally()
+```
+
+```{r}
+df2 <- merge(df,
+             reagg, 
+             by.x = 'node', 
+             by.y = 'node', 
+             all.x = TRUE)
+```
+
+```{r}
+reagg <- df%>%
+  dplyr::group_by(node)%>%  # Here we are grouping the data by node and then we are taking the frequency of it 
+  tally()
+
+df2 <- merge(df, 
+             reagg, 
+             by.x = 'node', 
+             by.y = 'node', 
+             all.x = TRUE)
+
+pl <- ggplot(df2, aes(x = x,                        
+                     next_x = next_x,                                     
+                     node = node,
+                     next_node = next_node,        
+                     fill = factor(node),
+                     label = paste0(node, " = ", n)))             # This Creates a label for each node
+                     
+pl <- pl +geom_sankey(flow.alpha = 0.5,          #This Creates the transparency of your node 
+                      node.color = "black",     # This is your node color        
+                      show.legend = TRUE)        # This determines if you want your legend to show
+
+pl <- pl + geom_sankey_label(Size = 3,
+                             color = "black", 
+                             fill = "white") # This specifies the Label format for each node 
+
+
+pl <- pl + theme_bw()
+pl <- pl + theme(legend.position = 'none')
+pl <- pl + theme(axis.title = element_blank(),
+                 axis.text.y = element_blank(),
+                 axis.ticks = element_blank(),
+                 panel.grid = element_blank())
+
+
+pl <- pl + scale_fill_viridis_d(option = "inferno")
+pl <- pl + labs(title = "Creating a Sankey Diagram")
+pl <- pl + labs(subtitle = "Using a simplified ficticious data")
+pl <- pl + labs(caption ="Opeyemi Omiwale" )
+pl <- pl + labs(fill = 'Nodes')
+pl
+```
