@@ -23,6 +23,7 @@
 ## Resources
 ### `R`
 - [Big Book of R](https://www.bigbookofr.com/)
+- [Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/)
 #### Youtube Channels
 - [ggnot2](https://www.youtube.com/@ggnot2)
 - [Posit](https://www.youtube.com/@PositPBC)
