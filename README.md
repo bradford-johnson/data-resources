@@ -1,4 +1,6 @@
 # data-resources
+## quarto sites
+- [workflows and data science](https://tellingstorieswithdata.com/03-workflow.html)
 ## Community Stuff
 - [30 Day Map Challenge](https://30daymapchallenge.com/)
 - [R For DS](https://www.rfordatasci.com/)
