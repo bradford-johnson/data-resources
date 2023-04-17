@@ -27,8 +27,6 @@
 - [programming with dplyr](https://dplyr.tidyverse.org/articles/programming.html)
 - [programming with tidyr](https://tidyr.tidyverse.org/articles/programming.html)
 - [programming with ggplot2](https://ggplot2-book.org/programming.html)
-
-    - [fundamentals of data visualizing](https://clauswilke.com/dataviz/index.html)
 - [forcats factors](https://blog.albertkuo.me/post/2022-01-04-reordering-geom-col-and-geom-bar-by-count-or-value/)
 - [Making shareable documents with Quarto](https://openscapes.github.io/quarto-website-tutorial/)
 - [mockup blog](https://themockup.blog/)
@@ -46,7 +44,7 @@
 - [New R Pipe](https://www.infoworld.com/article/3621369/use-the-new-r-pipe-built-into-r-41.html)
 
 ### `SQL`
-- [SQL Style Guide](https://www.sqlstyle.guide/)
+
 - [PostgreSQL Courses](https://www.enterprisedb.com/training/free-postgres-training)
 
 ### `Tableau`
