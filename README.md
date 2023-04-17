@@ -11,27 +11,14 @@
 ## Tools
 - [`regex`](https://regex-generator.olafneumann.org/?sampleText=2020-03-12T13%3A34%3A56.123Z%20INFO%20%20%5Borg.example.Class%5D%3A%20This%20is%20a%20%23simple%20%23logline%20containing%20a%20%27value%27.&flags=i)
 
-## Colors!
-- [Chroma.js](https://gka.github.io/palettes/#/9|s|948616,0b567b,ffffe0|ffffe0,ff005e,93003a|1|1)
-- [Color Thief](https://lokeshdhakar.com/projects/color-thief/)
-- [Color Space](https://mycolor.space/)
-- [Viz Palette](https://projects.susielu.com/viz-palette)
-
-## Viz
-- [Material Design](https://m2.material.io/design/communication/data-visualization.html#types)
-- [Viz Flowchart](https://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf)
-- [Data Viz Project](https://datavizproject.com/)
-- [Visualization Universe](http://visualizationuniverse.com/charts/)
 ## Resources
 ### `R`
-- [Big Book of R](https://www.bigbookofr.com/)
-- [Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/)
 #### Youtube Channels
-- [ggnot2](https://www.youtube.com/@ggnot2)
+
 - [Posit](https://www.youtube.com/@PositPBC)
-- [R Programming 101](https://www.youtube.com/@RProgramming101)
+
 - [Business Science](https://www.youtube.com/@BusinessScience)
-- [DataSlice](https://www.youtube.com/@dataslice)
+
 #### Websites
 - [Forecasting: Principles and Practice](https://otexts.com/fpp2/index.html)
 - [rweekly.org](https://rweekly.org/)
@@ -40,7 +27,7 @@
 - [programming with dplyr](https://dplyr.tidyverse.org/articles/programming.html)
 - [programming with tidyr](https://tidyr.tidyverse.org/articles/programming.html)
 - [programming with ggplot2](https://ggplot2-book.org/programming.html)
-    - [ggplot2 book](https://ggplot2-book.org/index.html)
+
     - [fundamentals of data visualizing](https://clauswilke.com/dataviz/index.html)
 - [forcats factors](https://blog.albertkuo.me/post/2022-01-04-reordering-geom-col-and-geom-bar-by-count-or-value/)
 - [Making shareable documents with Quarto](https://openscapes.github.io/quarto-website-tutorial/)
